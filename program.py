@@ -1,4 +1,6 @@
 from Grade import Grade
 
-print(Grade('liza', 'python', 100), Grade('may', 'math', 85))
-print(is_grade_higher_than_average())
+print(Grade('liza', 100, 'python'))
+print(Grade('may', 90, 'math'))
+print(Grade('adi', 80, 'english'))
+print(Grade('adi', 125, 'english'))
